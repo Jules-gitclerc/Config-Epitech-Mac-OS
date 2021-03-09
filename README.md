@@ -2,7 +2,7 @@
 Bienvenue sur mon Repository script-installation-epitech-macos !:+1:
 
 Ici, vous retrouverez un script permettant d'installer l'environnement Epitech sur vos Mac.
-- [x] Dernière mise à jour : 03/01/19 par Mohamed CHARA
+- [x] Dernière mise à jour : 09/03/21 par Jules Clerc
 
 ## Authors
 _Ce script utilise ces bases ci :
@@ -34,8 +34,6 @@ Ce script procède à ces installations :
   - Installation de csfml
   - Ajout des outils jetbrains
   - Ajout d'alias
-  - Génération d'une clef SSH 
-  - Upload de la clef SSH sur blih 
     
 > Merci à ceux qui ont permis ce projet dont le Bocal et le Content ainsi que Guillaume Cauchois, qui ont fourni les script sus-mentionnés
 ## Getting Started
