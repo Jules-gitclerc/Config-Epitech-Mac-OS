@@ -1,0 +1,73 @@
+#!/bin/bash
+source build_csfml
+source blih
+
+function start()
+{
+	echo " ## MISE A JOUR DES SOUCES"
+	echo " ## MISE A JOUR DU SYSTEME"
+    softwareupdate -l
+	echo ""
+
+	echo " ## Installation de Brew"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew doctor
+	echo ""
+
+	echo " ## INSTALLATION DE iTerm2"
+    brew cask install iterm2
+	echo ""
+
+	echo " ## INSTALLATION DE TREE"
+    brew install tree
+	echo ""
+
+	echo " ## INSTALLATION DE GIT"
+    brew install git
+	echo ""
+
+	echo " ## INSTALLATION DE ZSH"
+    brew install zsh
+	echo ""
+
+	echo " ## INSTALLATION DE CURL"
+	brew install curl
+	echo ""
+
+	echo " ## INSTALLATION DE WGET"
+	brew install wget
+	echo ""
+
+	echo " ## INSTALLATION DE LIBNCURSES"
+    brew install ncurses
+	echo ""
+
+	echo " ## INSTALLATION DE VALGRIND"
+    brew install valgrind
+	echo ""
+
+	echo " ## INSTALLATION DE GDB"
+    brew install gdb
+	echo ""
+
+	echo " ## INSTALLATION DE GCC"
+    brew install gcc
+	echo ""
+
+	echo " ## INSTALLATION DE CLANG"
+    brew install clang-format
+	echo ""
+
+	echo " ## INSTALLATION DE PYTHON"
+    brew install python3
+	echo ""
+
+	echo " ## INSTALLATION DE CSFML"
+    brew install csfml
+	echo ""
+
+	echo " ## Vérification d'installation"
+	echo "MOT DE PASSE MACHINE ICI:"
+	sudo cp ./assets/.installationdone /usr/local/
+	echo ""
+}
